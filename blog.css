@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+#products-blog{
+    /* background: linear-gradient(to right,  rgba(247,233,213,255), #665539); */
+    text-align: center;
+}
+
+#products-blog .pro-blog{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#products-blog .pro-container-blog{
+    width:48%;
+    text-align:center;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 10px rgba(226,200,167,255);
+    border-radius:50px;
+    margin:15px 0;
+    transition: transform 0.3s;
+}
+
+#products-blog .pro-container-blog img{
+    width:100%;
+    background:#eef2ef;
+    border-radius: 50px;
+}
+
+
+#products-blog .pro-container-blog:hover{
+    background: linear-gradient(to right, rgb(209, 176, 133), rgb(143, 114, 66));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.020);
+}
+
+#products-blog h2{
+    font-size: 130px;
+    margin-bottom: 100px ;
+    box-shadow: 0 2px 5px   rgb(143, 114, 66);
+    background: linear-gradient(to right, rgba(247,233,213,255), rgba(225,200,165,255));
+    border-radius: 20px;
+    padding:20px;
+    color: #483102;
+}
+
+#products-blog .pro-container-blog .description{
+    text-align: start;
+    padding: 10px 10px;
+}
+
+#products-blog .pro-container-blog .description h5{
+    padding:5px;
+    font-size: 40px;
+}
+
+#products-blog .pro-container-blog .description h6{
+    font-size: 15px;
+    padding: 5px;
+    /* padding-bottom: 5px; */
+}
+
+#products-blog .pro-container-blog .description span{
+    padding: 20px 5px;
+}
